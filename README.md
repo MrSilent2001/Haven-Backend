@@ -24,3 +24,16 @@ uvicorn main:app --reload
   "note": "Feeling pretty good today!"
 }
 ```
+
+## Sample user item
+
+```json
+{
+  "user_id": "user123",
+  "first_name": "John",
+  "last_name": "Doe",
+  "age": 30,
+  "telephone": "123-456-7890",
+  "city": "New York"
+}
+```
