@@ -1,9 +1,9 @@
 import os
 from dotenv import load_dotenv
 from fastapi import FastAPI
-from db import client
-from mood import router as mood_router
-from user import router as user_router
+from util.db import client
+from routes.mood import router as mood_router
+from routes.user import router as user_router
 
 app = FastAPI()
 

@@ -3,7 +3,7 @@ from pydantic import BaseModel
 from typing import Optional
 from datetime import datetime
 from bson import ObjectId
-from db import client
+from util.db import client
 import os
 from dotenv import load_dotenv
 
