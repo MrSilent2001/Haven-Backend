@@ -1,7 +1,7 @@
 from fastapi import APIRouter, HTTPException
 from pydantic import BaseModel
 from typing import Optional
-from db import client
+from util.db import client
 import os
 from dotenv import load_dotenv
 
